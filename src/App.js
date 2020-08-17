@@ -1,6 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Amplify from 'aws-amplify';
+import config from './aws-exports';
+Amplify.configure(config);
+import {BaseStyles, Box, Heading} from '@primer/components';
 
 function App() {
   return (
@@ -19,6 +23,14 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <BaseStyles>
+        <Box m={4}>
+          <Heading mb={2}>Hello, world!</Heading>
+          <p>This will get Primer text styles.</p>
+        </Box>
+      </BaseStyles>
+
     </div>
   );
 }
