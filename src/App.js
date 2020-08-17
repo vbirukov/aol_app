@@ -3,8 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 import Amplify from 'aws-amplify';
 import config from './aws-exports';
-Amplify.configure(config);
 import {BaseStyles, Box, Heading} from '@primer/components';
+import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
+Amplify.configure(config);
 
 function App() {
   return (
@@ -31,8 +32,10 @@ function App() {
         </Box>
       </BaseStyles>
 
+    <AmplifySignOut />
+
     </div>
   );
 }
 
-export default App;
+export default withAuthenticator(App);
