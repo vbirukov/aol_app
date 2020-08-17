@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Amplify from 'aws-amplify';
-import config from './aws-exports';
+import config from 'aws-exports';
 import {BaseStyles, Box, Heading} from '@primer/components';
 import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
 Amplify.configure(config);
