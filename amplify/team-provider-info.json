@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-aolapp-dev-185427-authRole",
+            "UnauthRoleArn": "arn:aws:iam::971043097518:role/amplify-aolapp-dev-185427-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::971043097518:role/amplify-aolapp-dev-185427-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "amplify-aolapp-dev-185427-deployment",
+            "UnauthRoleName": "amplify-aolapp-dev-185427-unauthRole",
+            "StackName": "amplify-aolapp-dev-185427",
+            "StackId": "arn:aws:cloudformation:eu-central-1:971043097518:stack/amplify-aolapp-dev-185427/ef640f10-e0a1-11ea-a688-064768627800",
+            "AmplifyAppId": "d1g4gtqow8mvzy"
+        },
+        "categories": {
+            "auth": {
+                "aolapp587c1228": {}
+            }
+        }
+    }
+}
