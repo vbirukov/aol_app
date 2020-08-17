@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import Carousel from '@bit/react-bootstrap.react-bootstrap.carousel'
 
-
 class MyCarousel extends Component {
     constructor(props, context) {
         super(props, context);
