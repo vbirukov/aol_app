@@ -1,0 +1,18 @@
+.HomeTab__mainArea {
+  width: 100%;
+  height: 100%;
+}
+.HomeTab__mainArea__row {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.HomeTab__mainArea__row-expand {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.HomeTab__mainArea__row__button {
+  width: 30%;
+}
+/*# sourceMappingURL=HomeTab.css.map */
