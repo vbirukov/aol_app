@@ -5,12 +5,6 @@ import MMButton from "./MMButton";
 
 class HomeTab extends Component {
 
-    renderMenu = this.props.menuItems.map((name) => {
-        return (<MMButton
-            className="HomeTab__mainArea__row__button"
-            caption={name}/>)
-    })
-
     render() {
         return (
             <div className="HomeTab__mainArea">
