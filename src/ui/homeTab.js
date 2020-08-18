@@ -18,7 +18,11 @@ class HomeTab extends Component {
                     <MyCarousel />
                 </div>
                 <div className="HomeTab__mainArea__row">
-                    {this.renderMenu}
+                    {this.props.menuItems.map((name) => {
+                        return (<MMButton
+                            className="HomeTab__mainArea__row__button"
+                            caption={name}/>)
+                    })}
                 </div>
             </div>
         );
